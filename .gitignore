@@ -1,0 +1,15 @@
+# Downloads and extracted NVIDIA sources
+*.tbz2
+Linux_for_Tegra/
+toolchain/
+
+# Files copied from the board
+running.uname
+running.config
+initrd-stock/
+
+# Build outputs, including the module signing key under Linux_for_Tegra/
+btf.config
+out/
+initrd-btf/
+jetson-btf-kernel.tar.gz
